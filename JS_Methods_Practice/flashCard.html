@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Methods Interactive Quiz</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f9f9f9;
+        padding: 20px;
+      }
+      .quiz-container {
+        max-width: 700px;
+        margin: auto;
+        background: #fff;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      }
+      h2 {
+        margin-bottom: 20px;
+      }
+      button {
+        display: block;
+        margin: 8px 0;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+        text-align: left;
+      }
+      #feedback {
+        margin-top: 10px;
+        font-weight: bold;
+      }
+      #score {
+        margin-top: 20px;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="quiz-container">
+      <h2 id="situation">Situation will appear here</h2>
+      <div id="options"></div>
+      <button onclick="nextQuestion()">Next Question</button>
+      <p id="feedback"></p>
+      <p id="score"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
