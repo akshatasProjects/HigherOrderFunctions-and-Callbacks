@@ -1,0 +1,4 @@
+/*
+  You will build a calculator that takes a number and returns the sum of all prime numbers that are less than or 
+  equal to that number.
+*/
